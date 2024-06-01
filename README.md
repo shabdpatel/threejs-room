@@ -70,3 +70,35 @@ The application will be available at `http://localhost:3000`.
 ## Project Structure
 
 
+- **public/**: Contains the `index.html` file.
+- **src/**: Source files for the project.
+  - **assets/**: Contains textures and models.
+  - **scripts/**: JavaScript files for setting up the scene, objects, and main logic.
+  - **styles/**: CSS files for styling the application.
+- **webpack.config.js**: Configuration file for Webpack.
+
+## Usage
+
+After setting up the project, you can start the development server and view the 3D room scene in your browser. Use the mouse to interact with the scene:
+
+- **Left Click + Drag**: Rotate the camera
+- **Scroll Wheel**: Zoom in/out
+- **Right Click + Drag**: Pan the camera
+
+## Contributing
+
+Contributions are always welcome!
+
+To get started:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature/your-feature`).
+6. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
